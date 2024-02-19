@@ -8,14 +8,18 @@ body {
 
 #main {
     display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 #radio_button {
     position: relative;
     font-size: 60px;
-    top: 250px;
+    /*top: 250px;
     right: 250px;
-    width: 250px;
+    width: 250px;*/
 }
 
 input {
@@ -42,12 +46,11 @@ input:checked {
 
 #base {
     width: 100%;
-    height: 2000px;
     padding-top: 100px;
     justify-content: center;
     display: grid;
-    grid-template-columns: 120px 200px 400px 200px 360px 200px 240px;
-    grid-template-rows: 500px 500px 200px 360px;
+    grid-template-columns: 7% 11% 22% 11% 21% 11% 14%;
+    grid-template-rows: 32% 32% 12% 23%;
 }
 
 #base div {

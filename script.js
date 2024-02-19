@@ -11,3 +11,6 @@ document.addEventListener('click', (event) => {
         document.getElementById(item).style.backgroundColor = color;
     };
 });
+
+var width = document.getElementById("base").clientWidth;
+document.getElementById('base').style.height = width / 1.5 + "px";
