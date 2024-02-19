@@ -12,10 +12,10 @@ body {
 
 #radio_button {
     position: relative;
-    font-size: 3em;
-    top: 6em;
-    right: 6em;
-    width: 6em;
+    font-size: 60px;
+    top: 250px;
+    right: 250px;
+    width: 250px;
 }
 
 input {
@@ -24,8 +24,8 @@ input {
     appearance: none;
   
     border-radius: 50%;
-    width: 2em;
-    height: 2em;
+    width: 40px;
+    height: 40px;
   
     border: 2px solid #000000;
     transition: 0.2s all linear;
@@ -42,11 +42,12 @@ input:checked {
 
 #base {
     width: 100%;
-    height: 50em;
+    height: 2000px;
+    padding-top: 100px;
     justify-content: center;
     display: grid;
-    grid-template-columns: 6em 10em 20em 10em 18em 10em 12em;
-    grid-template-rows: 25em 25em 10em 18em;
+    grid-template-columns: 120px 200px 400px 200px 360px 200px 240px;
+    grid-template-rows: 500px 500px 200px 360px;
 }
 
 #base div {
